@@ -1,16 +1,27 @@
+
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Change : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    public GameObject[] characters;
+    public Dropdown characterDropdown;
+
     void Start()
     {
-        
+        ShowCharacter(0);
+
+        characterDropdown.onValueChanged.AddListener(ShowCharacter);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ShowCharacter(int index)
     {
-        
+        for (int i = 0; i < characters.Length; i++)
+        {
+            characters[i].SetActive(false);
+        }
+
+        characters[index].SetActive(true);
     }
 }
