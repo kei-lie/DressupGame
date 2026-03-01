@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c77885e13fb285449b8055baef8efc3a
+guid: 4206664f3f75195459c1b9903125f5e3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2919378836723705254
-    second: Necklace_0
+      213: -6894199083270041014
+    second: TSHead_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Necklace_0
+      name: TSHead_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 208
-        height: 256
+        width: 900
+        height: 900
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5a5a406a684c77d0800000000000000
-      internalID: -2919378836723705254
+      spriteID: a429dd6f572e250a0800000000000000
+      internalID: -6894199083270041014
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7147f834aaa5f374297896201185dd06
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Necklace_0: -2919378836723705254
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
